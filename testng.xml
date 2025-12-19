@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RDK TV Feature Validation Suite">
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.rdk.validation.FrameworkSmokeTest"/>
+        </classes>
+    </test>
+
+</suite>
