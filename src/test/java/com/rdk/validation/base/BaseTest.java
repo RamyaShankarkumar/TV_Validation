@@ -1,25 +1,25 @@
 package com.rdk.validation.base;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import com.rdk.validation.simulator.TVsimulator;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
+	
+    protected TVsimulator TV;
 
-    // Proper constructor
-    public BaseTest() {
-        System.out.println("BaseTest constructor called");
+    @BeforeClass(alwaysRun = true)
+    public void setUpClass() {
+        System.out.println("===== BeforeClass: Initialize TV Simulator =====");
+        TV = new TVsimulator();
+	TV.powerOn();
+	TV.connectWifi();
     }
 
-    @BeforeMethod
-    public void setUp() {
-        System.out.println("===== Test Setup =====");
-        // Later: initialize simulator, load config, connect to device
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        System.out.println("===== Test Teardown =====");
-        // Later: cleanup, disconnect, reset state
+    @AfterClass(alwaysRun = true)
+    public void tearDownClass() {
+        System.out.println("===== AfterClass: Cleanup TV Simulator =====");
+        TV.powerOff();
     }
 }
  

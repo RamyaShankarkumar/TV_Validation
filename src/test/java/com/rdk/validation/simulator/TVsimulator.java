@@ -22,6 +22,9 @@ public class TVsimulator {
         return isOn;
     }
 
+    public String getPowerState() {
+        return isOn ? "ON" : "OFF";
+    }
     // WiFi methods
     public void connectWifi() {
         if (!isOn) {

@@ -1,3 +1,6 @@
-com\rdk\validation\base\BaseTest.class
 com\rdk\validation\FrameworkSmokeTest.class
 com\rdk\validation\simulator\TVsimulator.class
+com\rdk\validation\features\smoke\PowerSmokeTest.class
+com\rdk\validation\features\validation\WifiValidationTest.class
+com\rdk\validation\base\BaseTest.class
+com\rdk\validation\features\AppLaunchTest.class

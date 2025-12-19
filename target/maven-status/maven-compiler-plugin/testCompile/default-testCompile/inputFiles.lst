@@ -1,4 +1,6 @@
 C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\base\BaseTest.java
-C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\FeatureValidationTest.java
-C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\FrameworkSmokeTest.java
+C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\features\smoke\FrameworkSmokeTest.java
+C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\features\smoke\PowerSmokeTest.java
+C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\features\validation\AppLaunchTest.java
+C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\features\validation\WifiValidationTest.java
 C:\Users\rnagal741\OneDrive - Comcast\Desktop\sample_TV\src\test\java\com\rdk\validation\simulator\TVsimulator.java
