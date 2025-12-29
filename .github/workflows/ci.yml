@@ -16,3 +16,9 @@ jobs:
 
       - name: Run tests
         run: mvn test -DsuiteXmlFile=testng.xml
+
+      - name: Upload TestNG report
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: test-output/index.html
